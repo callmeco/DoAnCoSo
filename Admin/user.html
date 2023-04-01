@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+<!-- sidebar starts -->
+<nav class="sidebar close">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="picture/durian.png" alt="Logo">
+            </span>
+            <div class="text logo-text">
+                <span class="name">Durio Check</span>
+                <span class="profession">Truy xuất sầu riêng</span>
+            </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                <i class="bx bx-search icon"></i>
+                <input type="text" placeholder="Tìm kiếm..."> 
+            </li>
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="user.html">
+                        <i class="bx bx-user-circle icon"></i>
+                        <span class="text nav-text">Quản lý người dùng</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="product.html">
+                        <i class="bx bx-food-menu icon"></i>
+                        <span class="text nav-text">Quản lý sản phẩm</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="">
+                <a href="/index.html">
+                    <i class="bx bx-log-out icon"></i>
+                    <span class="text nav-text">Đăng xuất</span>
+                </a>
+            </li>
+            <li class="mode">
+                <div class="sun-moon">
+                    <i class="bx bx-moon icon moon"></i>
+                    <i class="bx bx-sun icon sun"></i>
+                </div>
+                <span class="mode-text text">Chế độ tối</span>
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+            </li>
+        </div>
+    </div>
+</nav>
+
+    <section class="home">
+        <div class="text">Quản lý thông tin người dùng</div>
+        <span class="button1"><a href="#">Thêm</a></span>
+        
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tài khoản</th>
+                        <th>Mật khẩu</th>
+                        <th>Chức vụ</th>
+                        <th>Chức năng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>admin</td>
+                        <td>123</td>
+                        <td>quản trị viên</td>
+                        <td>
+                            <span class="action-btn">
+                                <a href="#">Sửa</a>
+                                <a href="#">Xoá</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>nhasanxuat</td>
+                        <td>123</td>
+                        <td>nhà sản xuất</td>
+                        <td>
+                            <span class="action-btn">
+                                <a href="#">Sửa</a>
+                                <a href="#">Xoá</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>nhakiemdinh</td>
+                        <td>123</td>
+                        <td>nhà kiểm định</td>
+                        <td>
+                            <span class="action-btn">
+                                <a href="#">Sửa</a>
+                                <a href="#">Xoá</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>users</td>
+                        <td>123</td>
+                        <td>người dùng</td>
+                        <td>
+                            <span class="action-btn">
+                                <a href="#">Sửa</a>
+                                <a href="#">Xoá</a>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+<!-- sidebar ends -->
+    <script src="script.js"></script>
+</body>
+</html>
